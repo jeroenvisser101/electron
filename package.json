@@ -1,6 +1,6 @@
 {
   "name": "electron",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "repository": "https://github.com/electron/electron",
   "description": "Build cross platform desktop apps with JavaScript, HTML, and CSS",
   "devDependencies": {
@@ -57,7 +57,7 @@
     "release": "./script/upload.py -p",
     "repl": "python ./script/start.py --interactive",
     "start": "python ./script/start.py",
-    "test": "node -e 'process.exit(0)'"
+    "test": "python ./script/test.py"
   },
   "license": "MIT",
   "author": "Electron Community",
